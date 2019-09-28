@@ -23,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/macagua/nodejs-helloworld/issues"
   },
-  "homepage": "https://github.com/macagua/nodejs-helloworld#readme"
+  "homepage": "https://github.com/macagua/nodejs-helloworld#readme",
+  "dependencies": {
+    "unique-names-generator": "^3.0.0"
+  }
 }
