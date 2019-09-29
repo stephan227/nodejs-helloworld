@@ -29,10 +29,13 @@ Install necessary minimum dependencies, with the following command:
 Run application
 ===============
 
+Create env variables
+::
+    echo "HELLO_WORLD=First-hello-world" > .env && echo "SECOND_HELLO_WORLD=Second-hello-world" >> .env
+    
 You can run Hello World Demo, with the following command:
 
 ::
-
     $ nodejs ./http_server.js
 
 Then, you can open the URL http://127.0.0.1:3000/ in your web browser and you can 
